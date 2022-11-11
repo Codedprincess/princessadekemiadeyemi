@@ -9,30 +9,27 @@ body {
     background-color: #efefef;
     padding: 10px;
     margin: 0;
+    color: #ddd;
 }
 h1 {
     font-size: 15pt;
-    color: #20bcd5;
+    color: #ddd;
     text-align: center;
     padding: 18px 0 18px 0;
     margin: 0 0 10px 0;
 }
 h1 span {
-    border: 4px dashed #20bcd5;
     padding: 10px;
 }
 p {
     padding: 0;
     margin: 0;
 }
-.img-circle {
-    border: 3px solid white;
-    border-radius: 50%;
-}
 .section {
-    background-color: #fff;
+    background-color: #111344;
+
     padding: 15px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     border-radius: 10px;
 }
 #header1 {
@@ -41,13 +38,13 @@ p {
 }
 #header img {
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
     margin: auto;
 }
 #header p {
     font-size: 25pt;
-    color: #3b464c;
+    color: #ddd;
     padding-top: 5px;
     margin: 0;
     font-weight: bold;
@@ -79,17 +76,19 @@ li {
 progress {
     width: 70%;
     height: 20px;
-    color: #3fb6b2;
+    color: #52154e62;
+
     background: #efefef;
 }
 progress::-webkit-progress-bar {
     background: #efefef;
 }
 progress::-webkit-progress-value {
-    background: #3fb6b2;
+    background: #52154e62;
 } 
 progress::-moz-progress-bar {
-    color: #3fb6b2;
+    color: #52154e62;
+
     background: #efefef;
 }
 iframe, audio {
@@ -107,18 +106,18 @@ form {
     margin-top: 0;
 }
 .submit {
-    background-color: #3fb6b2;
+    background-color: #fff;
     padding: 12px 45px;
     border-radius: 5px;
     cursor: pointer;
-    color: #ffffff;
+    color: #52154E;
     border: none;
     outline: none;
     margin: 0;
     font-weight: bold;
 }
 .submit:hover {
-    background-color: #43a09d;
+    background-color: #fff;
 }
 textarea {
     height: 100px;
